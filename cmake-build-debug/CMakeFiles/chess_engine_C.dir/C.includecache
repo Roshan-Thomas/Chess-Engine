@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/bitboards.c
+stdio.h
+C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/stdio.h
+defs.h
+C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/defs.h
+
 C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/defs.h
 stdlib.h
 C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/stdlib.h

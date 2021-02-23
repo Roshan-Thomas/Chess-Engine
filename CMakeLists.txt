@@ -3,4 +3,4 @@ project(chess_engine_C C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(chess_engine_C vice.c defs.h init.c)
+add_executable(chess_engine_C vice.c defs.h init.c bitboards.c)

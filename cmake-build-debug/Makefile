@@ -127,6 +127,33 @@ chess_engine_C\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\build
 .PHONY : chess_engine_C\fast
 
+bitboards.obj: bitboards.c.obj
+
+.PHONY : bitboards.obj
+
+# target to build an object file
+bitboards.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\bitboards.c.obj
+.PHONY : bitboards.c.obj
+
+bitboards.i: bitboards.c.i
+
+.PHONY : bitboards.i
+
+# target to preprocess a source file
+bitboards.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\bitboards.c.i
+.PHONY : bitboards.c.i
+
+bitboards.s: bitboards.c.s
+
+.PHONY : bitboards.s
+
+# target to generate assembly for a file
+bitboards.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\bitboards.c.s
+.PHONY : bitboards.c.s
+
 init.obj: init.c.obj
 
 .PHONY : init.obj
@@ -190,6 +217,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... chess_engine_C
+	@echo ... bitboards.obj
+	@echo ... bitboards.i
+	@echo ... bitboards.s
 	@echo ... init.obj
 	@echo ... init.i
 	@echo ... init.s

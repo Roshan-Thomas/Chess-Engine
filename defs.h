@@ -14,7 +14,7 @@
 #else
 #define ASSERT(n)                \
 if (!(n)) {                      \
-printf("%s - Failed ", #n);       \
+printf("%s - Failed ", #n);      \
 printf("On %s ",__DATE__);       \
 printf("At %s ",__TIME__);       \
 printf("In File %s ",__FILE__);  \
@@ -91,6 +91,7 @@ typedef struct {
 /* MACROS */
 
 #define FR2SQ(f,r) ( (21 + (f) ) + ( (r) * 10 ) )
+#define SQ64(sq120) Sq120ToSq64[sq120]
 
 /* GLOBALS */
 
@@ -99,7 +100,11 @@ extern int Sq64ToSq120[64];
 
 /* FUNCTIONS */
 
+// init.c
 extern void AllInit();
+
+// bitboards.c
+extern void PrintBitBoard(U64 bb);
 
 
 
