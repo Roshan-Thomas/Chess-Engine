@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/init.c" "C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/cmake-build-debug/CMakeFiles/chess_engine_C.dir/init.c.obj"
   "C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/vice.c" "C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/cmake-build-debug/CMakeFiles/chess_engine_C.dir/vice.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")

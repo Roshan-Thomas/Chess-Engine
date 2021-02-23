@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/chess_engine_C.dir/init.c.obj"
   "CMakeFiles/chess_engine_C.dir/vice.c.obj"
   "chess_engine_C.exe"
   "chess_engine_C.exe.manifest"
