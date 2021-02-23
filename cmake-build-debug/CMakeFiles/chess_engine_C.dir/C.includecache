@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/defs.h
+stdlib.h
+C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/stdlib.h
 
 C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/init.c
 defs.h
