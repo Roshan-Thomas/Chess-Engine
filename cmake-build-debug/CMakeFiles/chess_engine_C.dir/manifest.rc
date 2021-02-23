@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/cmake-build-debug/CMakeFiles/chess_engine_C.dir/embed.manifest"

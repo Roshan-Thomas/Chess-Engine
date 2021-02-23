@@ -1,0 +1,3 @@
+C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/cmake-build-debug/CMakeFiles/chess_engine_C.dir
+C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
