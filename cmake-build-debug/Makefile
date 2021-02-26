@@ -181,6 +181,33 @@ board.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\board.c.s
 .PHONY : board.c.s
 
+data.obj: data.c.obj
+
+.PHONY : data.obj
+
+# target to build an object file
+data.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\data.c.obj
+.PHONY : data.c.obj
+
+data.i: data.c.i
+
+.PHONY : data.i
+
+# target to preprocess a source file
+data.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\data.c.i
+.PHONY : data.c.i
+
+data.s: data.c.s
+
+.PHONY : data.s
+
+# target to generate assembly for a file
+data.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\data.c.s
+.PHONY : data.c.s
+
 hashkeys.obj: hashkeys.c.obj
 
 .PHONY : hashkeys.obj
@@ -277,6 +304,9 @@ help:
 	@echo ... board.obj
 	@echo ... board.i
 	@echo ... board.s
+	@echo ... data.obj
+	@echo ... data.i
+	@echo ... data.s
 	@echo ... hashkeys.obj
 	@echo ... hashkeys.i
 	@echo ... hashkeys.s
