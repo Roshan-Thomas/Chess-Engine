@@ -4,6 +4,9 @@
 CMakeFiles\chess_engine_C.dir\bitboards.c.obj: ..\bitboards.c
 CMakeFiles\chess_engine_C.dir\bitboards.c.obj: ..\defs.h
 
+CMakeFiles\chess_engine_C.dir\hashkeys.c.obj: ..\defs.h
+CMakeFiles\chess_engine_C.dir\hashkeys.c.obj: ..\hashkeys.c
+
 CMakeFiles\chess_engine_C.dir\init.c.obj: ..\defs.h
 CMakeFiles\chess_engine_C.dir\init.c.obj: ..\init.c
 
