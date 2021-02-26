@@ -78,9 +78,10 @@ typedef struct {
     U64 posKey;
 
     int pceNum[13];
-    int bigPce[3]; // any pieces other than pawns
-    int majPce[3]; // rooks and queens
-    int minPce[3]; // Bishops and Knights
+    int bigPce[2]; // any pieces other than pawns
+    int majPce[2]; // rooks and queens
+    int minPce[2]; // Bishops and Knights
+    int material[2]; // will hold the material score for both black and white
 
     S_UNDO history[MAXGAMEMOVES];
 
@@ -113,6 +114,12 @@ extern char SideChar[];
 extern char RankChar[];
 extern char FileChar[];
 
+extern int PieceBig[13];
+extern int PieceMaj[13];
+extern int PieceMin[13];
+extern int PieceVal[13];
+extern int PieceCol[13];
+
 /* FUNCTIONS */
 
 // init.c
@@ -130,5 +137,6 @@ extern U64 GeneratePosKey(const S_BOARD *pos);
 extern void ResetBoard(S_BOARD *pos);
 extern int ParseFen(char *fen, S_BOARD *pos);
 extern void PrintBoard(const S_BOARD *pos);
+extern void UpdateListsMaterial(S_BOARD *pos);
 
 #endif
