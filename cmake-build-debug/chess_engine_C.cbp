@@ -86,6 +86,9 @@
 		<Unit filename="C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/defs.h">
 			<Option target="chess_engine_C"/>
 		</Unit>
+		<Unit filename="C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/hashkeys.c">
+			<Option target="chess_engine_C"/>
+		</Unit>
 		<Unit filename="C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/init.c">
 			<Option target="chess_engine_C"/>
 		</Unit>

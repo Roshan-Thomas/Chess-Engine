@@ -1,17 +1,29 @@
-#include <stdio.h>
+#include "stdio.h"
 #include "defs.h"
+#include "stdlib.h"
 
 int main() {
 
     AllInit();
-    int index = 0;
-    U64 playBitBoard = 0ULL;
 
-    SETBIT(playBitBoard, 61); // Set a BIT (puts an X on the specified index)
-    PrintBitBoard(playBitBoard);
+    int PieceOne = rand();
+    int PieceTwo = rand();
+    int PieceThree = rand();
+    int PieceFour = rand();
 
-    CLRBIT(playBitBoard, 61); // Clears the BIT on the specified index
-    PrintBitBoard(playBitBoard);
+    printf("PieceOne:%X\n", PieceOne);
+    printf("PieceTwo:%X\n", PieceTwo);
+    printf("PieceThree:%X\n", PieceThree);
+    printf("PieceFour:%X\n", PieceFour);
+
+    int Key = PieceOne ^ PieceTwo ^ PieceThree ^ PieceFour;
+    int TempKey = PieceOne;
+    TempKey ^= PieceThree;
+    TempKey ^= PieceFour;
+    TempKey ^= PieceTwo;
+
+    printf("Key:%X\n", Key);
+    printf("TempKey:%X\n", TempKey);
 
     return 0;
 }

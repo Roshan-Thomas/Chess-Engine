@@ -154,6 +154,33 @@ bitboards.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\bitboards.c.s
 .PHONY : bitboards.c.s
 
+hashkeys.obj: hashkeys.c.obj
+
+.PHONY : hashkeys.obj
+
+# target to build an object file
+hashkeys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\hashkeys.c.obj
+.PHONY : hashkeys.c.obj
+
+hashkeys.i: hashkeys.c.i
+
+.PHONY : hashkeys.i
+
+# target to preprocess a source file
+hashkeys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\hashkeys.c.i
+.PHONY : hashkeys.c.i
+
+hashkeys.s: hashkeys.c.s
+
+.PHONY : hashkeys.s
+
+# target to generate assembly for a file
+hashkeys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\hashkeys.c.s
+.PHONY : hashkeys.c.s
+
 init.obj: init.c.obj
 
 .PHONY : init.obj
@@ -220,6 +247,9 @@ help:
 	@echo ... bitboards.obj
 	@echo ... bitboards.i
 	@echo ... bitboards.s
+	@echo ... hashkeys.obj
+	@echo ... hashkeys.i
+	@echo ... hashkeys.s
 	@echo ... init.obj
 	@echo ... init.i
 	@echo ... init.s
