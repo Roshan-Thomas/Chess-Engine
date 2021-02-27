@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/attack.c">
+			<Option target="chess_engine_C"/>
+		</Unit>
 		<Unit filename="C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/bitboards.c">
 			<Option target="chess_engine_C"/>
 		</Unit>

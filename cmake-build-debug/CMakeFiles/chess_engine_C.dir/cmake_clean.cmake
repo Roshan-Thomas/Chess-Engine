@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/chess_engine_C.dir/attack.c.obj"
   "CMakeFiles/chess_engine_C.dir/bitboards.c.obj"
   "CMakeFiles/chess_engine_C.dir/board.c.obj"
   "CMakeFiles/chess_engine_C.dir/data.c.obj"
