@@ -1,7 +1,3 @@
-//
-// Created by roshan on 2/23/2021.
-//
-
 #ifndef DEFS_H
 #define DEFS_H
 
@@ -12,12 +8,12 @@
 #ifndef DEBUG
 #define ASSERT(n)
 #else
-#define ASSERT(n)                \
-if (!(n)) {                      \
-printf("%s - Failed ", #n);      \
-printf("On %s ",__DATE__);       \
-printf("At %s ",__TIME__);       \
-printf("In File %s ",__FILE__);  \
+#define ASSERT(n) \
+if(!(n)) { \
+printf("%s - Failed",#n); \
+printf("On %s ",__DATE__); \
+printf("At %s ",__TIME__); \
+printf("In File %s ",__FILE__); \
 printf("At Line %d\n",__LINE__); \
 exit(1);}
 #endif
@@ -29,12 +25,14 @@ typedef unsigned long long U64;
 
 #define MAXGAMEMOVES 2048
 
-#define START_FEN "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
+#define START_FEN  "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1"
 
-enum { EMPTY, wP, wN, wB, wR, wQ, wK, bP, bN, bB, bR, bQ, bK };
+enum { EMPTY, wP, wN, wB, wR, wQ, wK, bP, bN, bB, bR, bQ, bK  };
 enum { FILE_A, FILE_B, FILE_C, FILE_D, FILE_E, FILE_F, FILE_G, FILE_H, FILE_NONE };
 enum { RANK_1, RANK_2, RANK_3, RANK_4, RANK_5, RANK_6, RANK_7, RANK_8, RANK_NONE };
+
 enum { WHITE, BLACK, BOTH };
+
 enum {
     A1 = 21, B1, C1, D1, E1, F1, G1, H1,
     A2 = 31, B2, C2, D2, E2, F2, G2, H2,
@@ -141,5 +139,6 @@ extern void ResetBoard(S_BOARD *pos);
 extern int ParseFen(char *fen, S_BOARD *pos);
 extern void PrintBoard(const S_BOARD *pos);
 extern void UpdateListsMaterial(S_BOARD *pos);
+extern int CheckBoard(const S_BOARD *pos);
 
 #endif
