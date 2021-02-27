@@ -101,6 +101,9 @@
 		<Unit filename="C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/init.c">
 			<Option target="chess_engine_C"/>
 		</Unit>
+		<Unit filename="C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/io.c">
+			<Option target="chess_engine_C"/>
+		</Unit>
 		<Unit filename="C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/vice.c">
 			<Option target="chess_engine_C"/>
 		</Unit>

@@ -19,6 +19,9 @@ CMakeFiles\chess_engine_C.dir\hashkeys.c.obj: ..\hashkeys.c
 CMakeFiles\chess_engine_C.dir\init.c.obj: ..\defs.h
 CMakeFiles\chess_engine_C.dir\init.c.obj: ..\init.c
 
+CMakeFiles\chess_engine_C.dir\io.c.obj: ..\defs.h
+CMakeFiles\chess_engine_C.dir\io.c.obj: ..\io.c
+
 CMakeFiles\chess_engine_C.dir\vice.c.obj: ..\defs.h
 CMakeFiles\chess_engine_C.dir\vice.c.obj: ..\vice.c
 

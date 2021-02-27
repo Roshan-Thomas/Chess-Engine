@@ -289,6 +289,33 @@ init.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\init.c.s
 .PHONY : init.c.s
 
+io.obj: io.c.obj
+
+.PHONY : io.obj
+
+# target to build an object file
+io.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\io.c.obj
+.PHONY : io.c.obj
+
+io.i: io.c.i
+
+.PHONY : io.i
+
+# target to preprocess a source file
+io.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\io.c.i
+.PHONY : io.c.i
+
+io.s: io.c.s
+
+.PHONY : io.s
+
+# target to generate assembly for a file
+io.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\io.c.s
+.PHONY : io.c.s
+
 vice.obj: vice.c.obj
 
 .PHONY : vice.obj
@@ -343,6 +370,9 @@ help:
 	@echo ... init.obj
 	@echo ... init.i
 	@echo ... init.s
+	@echo ... io.obj
+	@echo ... io.i
+	@echo ... io.s
 	@echo ... vice.obj
 	@echo ... vice.i
 	@echo ... vice.s
