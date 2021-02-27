@@ -104,8 +104,8 @@ typedef struct {
 0001 0000 0000 0000 0000 0000 0000 -> Castle 0x1000000
 */
 
-#define FROM(m) ((m) & 0x3F)
-#define TO(m) (((m)>>7) & 0x3F)
+#define FROMSQ(m) ((m) & 0x3F)
+#define TOSQ(m) (((m)>>7) & 0x3F)
 #define CAPTURED(m) (((m)>>14) & 0xF)
 #define PROMOTED(m) (((m)>>20) & 0xF)
 
