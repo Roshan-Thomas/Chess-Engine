@@ -49,7 +49,11 @@ enum { FALSE, TRUE };
 enum { WKCA = 1, WQCA = 2, BKCA = 4, BQCA = 8 };
 
 typedef struct {
+    int move;
+    int score;
+} S_MOVE;
 
+typedef struct {
     int move;
     int castlePerm;
     int enPas;
@@ -87,6 +91,10 @@ typedef struct {
     int pList[13][10];
 
 } S_BOARD;
+
+/* GAME MOVE */
+
+
 
 /* MACROS */
 
