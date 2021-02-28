@@ -22,6 +22,12 @@ CMakeFiles\chess_engine_C.dir\init.c.obj: ..\init.c
 CMakeFiles\chess_engine_C.dir\io.c.obj: ..\defs.h
 CMakeFiles\chess_engine_C.dir\io.c.obj: ..\io.c
 
+CMakeFiles\chess_engine_C.dir\movegen.c.obj: ..\defs.h
+CMakeFiles\chess_engine_C.dir\movegen.c.obj: ..\movegen.c
+
+CMakeFiles\chess_engine_C.dir\validate.c.obj: ..\defs.h
+CMakeFiles\chess_engine_C.dir\validate.c.obj: ..\validate.c
+
 CMakeFiles\chess_engine_C.dir\vice.c.obj: ..\defs.h
 CMakeFiles\chess_engine_C.dir\vice.c.obj: ..\vice.c
 

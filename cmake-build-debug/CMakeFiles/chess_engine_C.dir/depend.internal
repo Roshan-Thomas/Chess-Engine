@@ -22,6 +22,12 @@ CMakeFiles/chess_engine_C.dir/init.c.obj
 CMakeFiles/chess_engine_C.dir/io.c.obj
  C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/defs.h
  C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/io.c
+CMakeFiles/chess_engine_C.dir/movegen.c.obj
+ C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/defs.h
+ C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/movegen.c
+CMakeFiles/chess_engine_C.dir/validate.c.obj
+ C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/defs.h
+ C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/validate.c
 CMakeFiles/chess_engine_C.dir/vice.c.obj
  C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/defs.h
  C:/Users/rosha/Desktop/CoderSpace/CLionProjects/games-development/chess-engine-C/vice.c

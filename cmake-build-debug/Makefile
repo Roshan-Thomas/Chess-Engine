@@ -343,6 +343,33 @@ movegen.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\movegen.c.s
 .PHONY : movegen.c.s
 
+validate.obj: validate.c.obj
+
+.PHONY : validate.obj
+
+# target to build an object file
+validate.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\validate.c.obj
+.PHONY : validate.c.obj
+
+validate.i: validate.c.i
+
+.PHONY : validate.i
+
+# target to preprocess a source file
+validate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\validate.c.i
+.PHONY : validate.c.i
+
+validate.s: validate.c.s
+
+.PHONY : validate.s
+
+# target to generate assembly for a file
+validate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\validate.c.s
+.PHONY : validate.c.s
+
 vice.obj: vice.c.obj
 
 .PHONY : vice.obj
@@ -403,6 +430,9 @@ help:
 	@echo ... movegen.obj
 	@echo ... movegen.i
 	@echo ... movegen.s
+	@echo ... validate.obj
+	@echo ... validate.i
+	@echo ... validate.s
 	@echo ... vice.obj
 	@echo ... vice.i
 	@echo ... vice.s
