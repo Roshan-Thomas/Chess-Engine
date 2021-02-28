@@ -10,15 +10,11 @@ int main() {
     AllInit();
 
     S_BOARD board[1];
-
-    ParseFen(PAWNMOVESB, board);
-    PrintBoard(board);
-
     S_MOVELIST list[1];
 
+    ParseFen(PAWNMOVESW, board);
     GenerateAllMoves(board,list);
 
-    PrintMoveList(list);
 
     return 0;
 }
