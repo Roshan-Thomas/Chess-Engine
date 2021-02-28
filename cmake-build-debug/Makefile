@@ -316,6 +316,33 @@ io.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\io.c.s
 .PHONY : io.c.s
 
+movegen.obj: movegen.c.obj
+
+.PHONY : movegen.obj
+
+# target to build an object file
+movegen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\movegen.c.obj
+.PHONY : movegen.c.obj
+
+movegen.i: movegen.c.i
+
+.PHONY : movegen.i
+
+# target to preprocess a source file
+movegen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\movegen.c.i
+.PHONY : movegen.c.i
+
+movegen.s: movegen.c.s
+
+.PHONY : movegen.s
+
+# target to generate assembly for a file
+movegen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chess_engine_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\chess_engine_C.dir\movegen.c.s
+.PHONY : movegen.c.s
+
 vice.obj: vice.c.obj
 
 .PHONY : vice.obj
@@ -373,6 +400,9 @@ help:
 	@echo ... io.obj
 	@echo ... io.i
 	@echo ... io.s
+	@echo ... movegen.obj
+	@echo ... movegen.i
+	@echo ... movegen.s
 	@echo ... vice.obj
 	@echo ... vice.i
 	@echo ... vice.s

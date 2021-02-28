@@ -213,6 +213,25 @@ CMakeFiles\chess_engine_C.dir\io.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\chess_engine_C.dir\io.c.s /c C:\Users\rosha\Desktop\CoderSpace\CLionProjects\games-development\chess-engine-C\io.c
 <<
 
+CMakeFiles\chess_engine_C.dir\movegen.c.obj: CMakeFiles\chess_engine_C.dir\flags.make
+CMakeFiles\chess_engine_C.dir\movegen.c.obj: ..\movegen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rosha\Desktop\CoderSpace\CLionProjects\games-development\chess-engine-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/chess_engine_C.dir/movegen.c.obj"
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\chess_engine_C.dir\movegen.c.obj /FdCMakeFiles\chess_engine_C.dir\ /FS -c C:\Users\rosha\Desktop\CoderSpace\CLionProjects\games-development\chess-engine-C\movegen.c
+<<
+
+CMakeFiles\chess_engine_C.dir\movegen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chess_engine_C.dir/movegen.c.i"
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\chess_engine_C.dir\movegen.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\rosha\Desktop\CoderSpace\CLionProjects\games-development\chess-engine-C\movegen.c
+<<
+
+CMakeFiles\chess_engine_C.dir\movegen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/chess_engine_C.dir/movegen.c.s"
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\chess_engine_C.dir\movegen.c.s /c C:\Users\rosha\Desktop\CoderSpace\CLionProjects\games-development\chess-engine-C\movegen.c
+<<
+
 # Object files for target chess_engine_C
 chess_engine_C_OBJECTS = \
 "CMakeFiles\chess_engine_C.dir\vice.c.obj" \
@@ -222,7 +241,8 @@ chess_engine_C_OBJECTS = \
 "CMakeFiles\chess_engine_C.dir\board.c.obj" \
 "CMakeFiles\chess_engine_C.dir\data.c.obj" \
 "CMakeFiles\chess_engine_C.dir\attack.c.obj" \
-"CMakeFiles\chess_engine_C.dir\io.c.obj"
+"CMakeFiles\chess_engine_C.dir\io.c.obj" \
+"CMakeFiles\chess_engine_C.dir\movegen.c.obj"
 
 # External object files for target chess_engine_C
 chess_engine_C_EXTERNAL_OBJECTS =
@@ -235,9 +255,10 @@ chess_engine_C.exe: CMakeFiles\chess_engine_C.dir\board.c.obj
 chess_engine_C.exe: CMakeFiles\chess_engine_C.dir\data.c.obj
 chess_engine_C.exe: CMakeFiles\chess_engine_C.dir\attack.c.obj
 chess_engine_C.exe: CMakeFiles\chess_engine_C.dir\io.c.obj
+chess_engine_C.exe: CMakeFiles\chess_engine_C.dir\movegen.c.obj
 chess_engine_C.exe: CMakeFiles\chess_engine_C.dir\build.make
 chess_engine_C.exe: CMakeFiles\chess_engine_C.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rosha\Desktop\CoderSpace\CLionProjects\games-development\chess-engine-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable chess_engine_C.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rosha\Desktop\CoderSpace\CLionProjects\games-development\chess-engine-C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable chess_engine_C.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\chess_engine_C.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\chess_engine_C.dir\objects1.rsp @<<
  /out:chess_engine_C.exe /implib:chess_engine_C.lib /pdb:C:\Users\rosha\Desktop\CoderSpace\CLionProjects\games-development\chess-engine-C\cmake-build-debug\chess_engine_C.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
